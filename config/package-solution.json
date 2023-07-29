@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fps-tile-v-2-client-side-solution",
+    "id": "9fc52224-071e-4da3-af1e-5b69c4af044b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "fps-tile-v-2 description"
+      },
+      "longDescription": {
+        "default": "fps-tile-v-2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fps-tile-v-2 Feature",
+        "description": "The feature that activates elements of the fps-tile-v-2 solution.",
+        "id": "70c8020c-6ec1-42c5-9946-5727b1c94f90",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fps-tile-v-2.sppkg"
+  }
+}

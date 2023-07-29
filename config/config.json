@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fps-tile-v-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fpsTileV2/FpsTileV2WebPart.js",
+          "manifest": "./src/webparts/fpsTileV2/FpsTileV2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FpsTileV2WebPartStrings": "lib/webparts/fpsTileV2/loc/{locale}.js"
+  }
+}
